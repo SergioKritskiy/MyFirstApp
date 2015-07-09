@@ -47,6 +47,7 @@ public class MainActivity extends ActionBarActivity {
         String gettedMessage = editText.getText().toString();
         Resources res = getResources();
         String[] arr=  res.getStringArray(R.array.colour);
+        //arr[0].toString();
         intent.putExtra(EXTRA_MESSAGE, gettedMessage);
         startActivity(intent);
     }
