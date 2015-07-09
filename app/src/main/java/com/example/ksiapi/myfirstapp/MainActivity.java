@@ -1,5 +1,6 @@
 package com.example.ksiapi.myfirstapp;
 
+import android.content.res.Resources;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -44,6 +45,8 @@ public class MainActivity extends ActionBarActivity {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String gettedMessage = editText.getText().toString();
+        Resources res = getResources();
+        String[] arr=  res.getStringArray(R.array.colour);
         intent.putExtra(EXTRA_MESSAGE, gettedMessage);
         startActivity(intent);
     }
