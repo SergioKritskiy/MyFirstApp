@@ -7,4 +7,6 @@
         <item>black</item>
         <item>white</item>
     </string-array>
+    <bool name="isAlive">true</bool>
+    <bool name="isDead">false</bool>
 </resources>
