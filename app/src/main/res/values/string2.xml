@@ -9,4 +9,7 @@
     </string-array>
     <bool name="isAlive">true</bool>
     <bool name="isDead">false</bool>
+    <color name="red">#ffff0d00</color>
+    <color name="grean">#ff12ff03</color>
+    <color name="yealow">#ff999509</color>
 </resources>
