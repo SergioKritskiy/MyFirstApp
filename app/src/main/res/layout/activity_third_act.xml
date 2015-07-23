@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,15 +7,76 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ksiapi.myfirstapp.Third_act">
-
+    <TableRow>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="This is thirt act" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="main_act"
         android:text="To main act" />
-</LinearLayout>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:text="ячейка 1 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView android:text="ячейка 1 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:background="@color/button_material_light"
+            android:layout_span="2" />
+        <TextView android:text="ячейка 1 3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="ячейка 2 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/button_material_light"/>
+
+        <TextView android:text="ячейка 2 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+        <TextView android:text="ячейка 2 3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/button_material_light"/>
+        <TextView android:text="ячейка 2 4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="ячейка 2 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:text="ячейка 2 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/button_material_light"/>
+
+        <TextView android:text="ячейка 2 3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView android:text="ячейка 2 4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/button_material_light"
+            />
+    </TableRow>
+
+</TableLayout>
