@@ -20,7 +20,5 @@
         android:onClick="thirt_act"
         android:text="@string/title_activity_third_act"
         android:layout_below="@+id/textView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRigth="true"/>
+/>
 </RelativeLayout>

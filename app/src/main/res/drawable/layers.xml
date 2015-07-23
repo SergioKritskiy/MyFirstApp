@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
-        <bitmap android:src="@drawable/Clock"
+        <bitmap android:src="@drawable/clock"
             android:gravity="left" />
     </item>
     <item android:left="45dp">
-        <bitmap android:src="@drawable/Battery"
+        <bitmap android:src="@drawable/battery"
             android:gravity="left" />
     </item>
     <item android:left="90dp">
-        <bitmap android:src="@drawable/Coffee"
+        <bitmap android:src="@drawable/coffee"
             android:gravity="left" />
     </item>
     <item android:left="135dp">
-        <bitmap android:src="@drawable/Calculator"
+        <bitmap android:src="@drawable/calculator"
             android:gravity="left" />
     </item>
 </layer-list>
