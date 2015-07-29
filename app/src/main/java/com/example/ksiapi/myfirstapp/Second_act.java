@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.CheckBox;
+import android.widget.TextView;
 
 
 public class Second_act extends ActionBarActivity {
@@ -41,5 +43,22 @@ public class Second_act extends ActionBarActivity {
     public void thirt_act(View view) {
         Intent intent = new Intent(this, Third_act.class);
         startActivity(intent);
+    }
+    public void select_language(View view){
+        boolean checkBoxState = ((CheckBox)view).isChecked();
+        TextView selectTextView = (TextView)findViewById(R.id.showStatus);
+        switch (view.getId()){
+            case R.id.checkEng:
+                if (checkBoxState){
+                     selectTextView.setText("English");
+                }
+                break;
+            case R.id.checkRu:
+                if(checkBoxState){
+                    selectTextView.setText("Russian");
+                }else{
+                }
+                break;
+        }
     }
 }

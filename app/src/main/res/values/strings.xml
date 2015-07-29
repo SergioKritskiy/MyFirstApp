@@ -13,4 +13,7 @@
     <string name="message_to_marge">message_to_marge</string>
     <string name="link_phone">2-25-38</string>
     <string name="link_web">http://metanit.com/java/android/4.1.php</string>
+    <string name="ru">ru</string>
+    <string name="eng">eng</string>
+    <string name="buttonSend">Отправить</string>
 </resources>

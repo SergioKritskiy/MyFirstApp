@@ -12,4 +12,15 @@
     <color name="red">#ffff0d00</color>
     <color name="grean">#ff12ff03</color>
     <color name="yealow">#ff999509</color>
+
+    <string-array name="cities">
+        <item>chernigiv</item>
+        <item>mena</item>
+        <item>semenovka</item>
+        <item>sosnicha</item>
+        <item>korop</item>
+        <item>korukivka</item>
+        <item>baturin</item>
+        <item>bahmach</item>
+    </string-array>
 </resources>

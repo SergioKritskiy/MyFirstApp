@@ -20,5 +20,29 @@
         android:onClick="thirt_act"
         android:text="@string/title_activity_third_act"
         android:layout_below="@+id/textView"
+        android:id="@+id/buttonToGo"
 />
+    <CheckBox
+        android:id="@+id/checkEng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eng"
+        android:layout_below="@+id/buttonToGo"
+        android:onClick="select_language"
+        />
+    <CheckBox
+        android:id="@+id/checkRu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ru"
+        android:layout_below="@+id/checkEng"
+        android:onClick="select_language"
+        />
+    <TextView
+        android:id="@+id/showStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkRu"
+        android:text="Empty!!"
+        />
 </RelativeLayout>
